@@ -3,7 +3,7 @@ terraform {
     resource_group_name  = "TerraformD"
     storage_account_name = "tfstorage1"
     container_name       = "tfcontainer"
-    key                  = "dev.terraform.tfstate"
+    key                  = "cool.tf file"
   }
 }
 module "RG" {
