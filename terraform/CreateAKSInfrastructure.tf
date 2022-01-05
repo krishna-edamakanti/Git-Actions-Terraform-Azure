@@ -4,6 +4,7 @@ locals {
   location            = "CentralUS"
   resource_group_name = "CloudQuickPOCsRG001"
 }
+
 # Get random
 resource "random_pet" "aks_random_1" {}
 
@@ -64,7 +65,6 @@ resource "azurerm_kubernetes_cluster" "aks_cluster_1" {
     }
   }
 }
-
 
 # user node pools for - high performance and high availability 
 resource "azurerm_kubernetes_cluster_node_pool" "usernodepool" { 
