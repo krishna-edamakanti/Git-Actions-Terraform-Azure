@@ -1,6 +1,6 @@
 terraform {
   backend "azurerm" {
-    resource_group_name  = "TerraformDemo"
+    resource_group_name  = "github-action1"
     storage_account_name = "terraformcodeops"
     container_name       = "tfstatefile"
     key                  = "krish.fiserv"
