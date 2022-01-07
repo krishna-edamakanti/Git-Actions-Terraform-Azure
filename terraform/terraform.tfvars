@@ -1,3 +1,3 @@
-rgname   = "github-action"
+rgname   = "github-action1"
 location = "East US"
-sname    = "devopsguru190"
+sname    = "krishfiserv"
