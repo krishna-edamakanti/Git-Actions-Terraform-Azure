@@ -3,7 +3,7 @@ terraform {
     resource_group_name  = "TerraformDemo"
     storage_account_name = "terraformcodeops"
     container_name       = "tfstatefile"
-    key                  = "krish.fiserv"
+    key                  = "dev.terraform.tfstate"
   }
 }
 module "RG" {
@@ -16,3 +16,4 @@ module "SA" {
   sname    = var.sname
   rgname   = var.rgname
   location = var.location
+}
